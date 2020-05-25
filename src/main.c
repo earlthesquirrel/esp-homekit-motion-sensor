@@ -5,12 +5,12 @@
  *
  */
 
-#define DEVICE_MANUFACTURER "David B Brown"
+#define DEVICE_MANUFACTURER "KNEWRON (1btn)"
 #define DEVICE_NAME "Motion-Sensor"
 #define DEVICE_MODEL "Basic"
 #define DEVICE_SERIAL "12345678"
 #define FW_VERSION "2.0"
-#define MOTION_SENSOR_GPIO 12
+#define MOTION_SENSOR_GPIO 5
 
 #include <stdio.h>
 #include <espressif/esp_wifi.h>
@@ -32,7 +32,7 @@
 #include <shared_functions.h>
 
 
-// add this section to make your device OTA capable
+// Add this section to make your device OTA capable
 // create the extra characteristic &ota_trigger, at the end of the primary service (before the NULL)
 // it can be used in Eve, which will show it, where Home does not
 // and apply the four other parameters in the accessories_information section
