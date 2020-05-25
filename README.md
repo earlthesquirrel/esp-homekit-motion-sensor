@@ -16,4 +16,4 @@ Also this will need all three pieces to be checked out as --recursive.
 To compile you will also need this set : export SDK_PATH=/Volumes/case-sensitive/esp-open-rtos
 (that's how the path looks for me, on the case sensitive volume I created on my Mac -- running Catalina )
 
-
+Also, either change permissions on the case-sensitive.dmg file or use sudo hdiutil attach -readwrite case-sensitive.dmg
